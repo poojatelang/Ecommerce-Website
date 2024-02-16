@@ -27,6 +27,7 @@ img{
   height:4rem;
   width:8rem;
 }
+
 `
 
 export default Header

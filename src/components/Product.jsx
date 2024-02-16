@@ -65,6 +65,8 @@ figure{
     color: ${({ theme }) => theme.text};
   }
 
+
+
 `
 
 export default Product

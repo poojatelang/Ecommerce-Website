@@ -110,5 +110,17 @@ hr{
     font-weight: bold;
   }
 }
+
+@media(max-width:1200px){
+padding:3rem;
+}
+@media(max-width:768px){
+  .grid-five-column {
+    grid-template-columns: 1.5fr 1fr 0.5fr;
+  }
+  .cart-hide {
+    display: none;
+  }
+}
 `
 export default Cart

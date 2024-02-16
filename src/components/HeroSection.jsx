@@ -39,9 +39,17 @@ const Wrapper = styled.section`
   gap:9rem;
   grid-template-columns:repeat(2,1fr)
 }
-img{
-  width:100%;
-  height:auto;
+
+.img-cont{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    min-width:20rem;
+    height:20rem;
+  }
 }
 .hero-section-data{
   p {
@@ -62,6 +70,21 @@ img{
   }
 
  
+}
+
+
+@media (max-width: 1200px) {
+  .container{
+    padding:2rem;
+  }
+@media (max-width: 768px) {
+  .container{
+    padding:1rem;
+  }
+ .grid{
+  grid-template-columns:1fr;
+  gap:2rem;
+ }
 }
 `
 

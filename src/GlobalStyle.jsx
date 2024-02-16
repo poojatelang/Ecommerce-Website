@@ -28,7 +28,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   .grid {
     display: grid;
-    gap: 9rem;
+    gap: 5rem;
   }
   
   .grid-two-column {
@@ -71,5 +71,25 @@ export const GlobalStyles = createGlobalStyle`
         transform:scale(1);
       }
       }
+
+      @media (max-width:1200) {
+        .container {
+        max-width: 90rem;
+        padding: 0 5.2rem;
+      }
+      }
   
-  `
+      @media (max-width:768px){
+        html {
+          font-size: 70%;
+        }
+    
+         .grid{
+             gap: 3.2rem;
+            }
+          .grid-two-column , .grid-three-column, .grid-four-column{
+              grid-template-columns: 1fr;
+            }
+        }
+    
+    `;

@@ -67,7 +67,17 @@ const Wrapper = styled.section`
     align-items: center;
   }
 
-
+@media(max-width:1200px){
+  padding:2rem;
+  img {
+    min-width: 5rem;
+    height: 5rem;
+  }
+  .brand-section-slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
 `;
 
 export default Trusted;

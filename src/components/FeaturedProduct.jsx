@@ -38,6 +38,26 @@ const Wrapper = styled.section`
   background-color:#B2A59B;
   padding:5rem;
 }
+
+@media (max-width: 1200px) {
+  figure{
+    img{
+      width:200px;
+      height:150px;
+    }
+    
+  }
+      }
+@media (max-width: 768px) {
+
+ 
+.grid{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+ }
+}
 `
 
 export default FeaturedProduct

@@ -109,5 +109,24 @@ footer {
   }
 }
 }
+@media(max-width:1200px){
+  .footer-first-section{
+    padding :0 5rem ;
+  }
+  footer {
+    .grid-four{
+      grid-template-columns:1fr 1fr;
+      // padding:12rem 9rem 7rem 9rem;
+    }
+  }
+}
+@media(max-width:768px){
+  footer {
+    .grid-four{
+      grid-template-columns:1fr;
+      // padding:12rem 9rem 7rem 9rem;
+    }
+  }
+}
 `
 export default Footer
