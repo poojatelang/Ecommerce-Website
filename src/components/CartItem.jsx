@@ -23,7 +23,7 @@ const CartItem = ({ id, name, image, color, price, count }) => {
             <p>color:</p>
             <div
               className="color-style"
-              style={{ backgroundColor: color }}></div>
+              style={{ backgroundColor: color , color: color}}></div>
           </div>
         </div>
       </div>
@@ -86,6 +86,12 @@ margin-top:2rem;
 .count-style{
   font-size:2rem;
   font-weight:bold;
+}
+.color-style {
+  width: 1.4rem;
+  height: 1.4rem;
+
+  border-radius: 50%;
 }
 `
 
