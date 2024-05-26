@@ -49,6 +49,7 @@ const Contact = () => {
   )
 }
 const Wrapper = styled.section`
+margin-top:100px;
 padding: 4rem 0 5rem 0;
 text-align: center;
 

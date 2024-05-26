@@ -30,6 +30,7 @@ const HeroSection = ({ myData }) => {
 }
 
 const Wrapper = styled.section`
+margin-top:100px;
 .container{
   padding:5rem 12rem 5rem 12rem;
   

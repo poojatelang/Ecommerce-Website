@@ -5,7 +5,7 @@ const MyImage = ({ imgs = [{ url: "" }] }) => {
   const [mainImage, setMainImage] = useState(imgs[0]);
   return (
     <Wrapper>
-      <div className='grid grid-four-column'>
+      <div className='grid grid-four-rows'>
         {
           imgs.map((curElm, index) => {
             return (
@@ -54,7 +54,7 @@ display: grid;
    
   }
 }
-.grid-four-column {
+.grid-four-rows {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
 }

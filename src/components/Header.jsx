@@ -20,6 +20,10 @@ const MainHeader=styled.header`
 background-color:#B2A59B;
 padding: 1rem 5rem;
 height:6rem;
+position:fixed;
+top:0;
+z-index:1;
+width:100%;
 display:flex;
 justify-content:space-between;
 align-items: center;

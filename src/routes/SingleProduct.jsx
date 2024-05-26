@@ -92,7 +92,7 @@ const SingleProduct = () => {
   )
 }
 const Wrapper=styled.section`
-margin-top:5rem;
+margin-top:10rem;
 margin-right:5rem;
 .details{
   display:flex;

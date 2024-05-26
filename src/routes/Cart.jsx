@@ -67,13 +67,14 @@ const Cart = () => {
   )
 }
 const EmptyDiv = styled.section`
-
+margin-top:100px;
 h3{
   text-align:center;
   font-size:2rem;
 }`
 
 const Wrapper = styled.section`
+margin-top:100px;
 padding:3rem 9rem 1rem 9rem;
 .grid{
   gap:2rem;
